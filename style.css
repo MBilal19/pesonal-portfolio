@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(1, 1, 40);
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(25, 25, 70);
+    height: 50px;
+
+}
+
+.left {
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 40vw;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(177, 177, 244);
+    font-size: 18px;
+
+}
+
+.leftsection {
+    width: 50%;
+    font-size: 25px;
+    margin: 50px 0px;
+}
+
+.elementjs {
+    font-size: 30px;
+    margin-top: 10px;
+    color: rgb(167, 114, 217);
+}
+.btn button{
+    width: 160px;
+    height: 50px;
+    background-color: rgb(102, 102, 228);
+    margin: 20px 10px;
+    border: 1px black;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.btn button:hover{
+    background-color: rgb(41, 41, 99);
+}
+
+.rightsection {
+    margin: 20px 0px;
+
+}
+
+.rightsection img {
+    width: 300px;
+    height: 300px;
+    margin: 50px 0px;
+
+}
+main hr{
+    width: 80%;
+    height: 1px;
+    background-color: rgb(148, 143, 143);
+    margin-left: 90px ;
+}
+.secondsection{
+    height: 80vh;
+    margin: auto;
+   
+}
+.secondsection p{
+color: gray;
+margin: 10px 75px;
+font-size: 12px;
+}
+.secondsection h1{
+    margin: 10px 75px;
+    font-weight: bolder;
+    font-size: 35px;
+}
+.box1{
+    width: 350px;
+    height: 280px;
+    border: 1px solid ;
+    border-radius: 10px;
+    border-color: white;
+    margin: 30px 30px;
+    background-color: rgb(95, 0, 190);
+    color: black;
+    cursor: pointer;
+}
+.box1:hover{
+    background-color: rgb(133, 72, 194);
+
+}
+.box1 h2:hover{
+    color: rgb(127, 8, 246);
+    font-size: 25px;
+}
+.box1 img{
+    width: 50px;
+    height: 40px;
+    margin: 2% 40%;
+}
+.box1 h2{
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    color: rgb(54, 39, 69);
+}
+.box1 p{
+    margin: 15px 5px;
+}
+.center{
+    display: flex;
+}
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 40px;
+}
+.main-footer ul{
+    list-style-type: none;
+    font-size: 15px;
+}
+.footer-end{
+    margin: 10px 10px;
+    text-align: center;
+    color: gray;
+}
+.footer-first h3{
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+hr{
+    width: 80%;
+    height: 1px;
+    background-color: rgb(148, 143, 143);
+    margin-left: 90px ;}
